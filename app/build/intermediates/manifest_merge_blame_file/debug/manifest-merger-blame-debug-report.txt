@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.project.mycashbook"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:5:5-38:19
+12        android:allowBackup="true"
+12-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.5.0] C:\Users\Administrator\.gradle\caches\transforms-3\8091e88265a2bdec2561f7dc53bbc273\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:hardwareAccelerated="false"
+15-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:13:9-44
+16        android:icon="@drawable/buku"
+16-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:7:9-38
+17        android:label="@string/app_name"
+17-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:8:9-41
+18        android:largeHeap="true"
+18-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:12:9-33
+19        android:roundIcon="@drawable/buku"
+19-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:9:9-43
+20        android:supportsRtl="true"
+20-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:10:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.MyCashBook" >
+22-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:11:9-48
+23        <activity
+23-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:14:9-16:40
+24            android:name="com.project.mycashbook.SettingActivity"
+24-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:15:13-44
+25            android:exported="false" />
+25-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:16:13-37
+26        <activity
+26-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:17:9-19:40
+27            android:name="com.project.mycashbook.DetailActivity"
+27-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:18:13-43
+28            android:exported="false" />
+28-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:19:13-37
+29        <activity
+29-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:20:9-22:40
+30            android:name="com.project.mycashbook.OutcomeActivity"
+30-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:21:13-44
+31            android:exported="false" />
+31-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:22:13-37
+32        <activity
+32-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:23:9-25:40
+33            android:name="com.project.mycashbook.IncomeActivity"
+33-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:24:13-43
+34            android:exported="false" />
+34-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:25:13-37
+35        <activity
+35-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:26:9-28:40
+36            android:name="com.project.mycashbook.MenuActivity"
+36-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:27:13-41
+37            android:exported="false" />
+37-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:28:13-37
+38        <activity
+38-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:29:9-37:20
+39            android:name="com.project.mycashbook.LoginActivity"
+39-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:30:13-42
+40            android:exported="true" >
+40-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:31:13-36
+41            <intent-filter>
+41-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:32:13-36:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:33:17-69
+42-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:33:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:35:17-77
+44-->D:\Besta\1. KUY LAH\SERTIFIKASI\Android\Sertifikasi-master\app\src\main\AndroidManifest.xml:35:27-74
+45            </intent-filter>
+46        </activity>
+47    </application>
+48
+49</manifest>
